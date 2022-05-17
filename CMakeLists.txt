@@ -220,3 +220,14 @@ cmake_print_variables(MAKE_SHARED_LIBRARY)
 # d) Build the executyble and add the libraries
 add_executable(MyFirstProgramBuildByCMake src/main.c)
 target_link_libraries(MyFirstProgramBuildByCMake PRIVATE calculator)
+
+
+###############################
+### ADD TESTING
+###############################
+
+# Enable testing features
+enable_testing()
+
+add_executable(testfile test/test.c)
+add_test(MyFirstCTest testfile)

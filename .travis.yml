@@ -2,7 +2,17 @@ dist: trusty
 sudo: false
 language: c 
 
+branches:
+  only:
+  - main
+
+addons:
+  apt:
+    packages:
+      - doxygen
+
 script:
   - cmake .
   - cmake --build . -- -j2
+  - ctest -j2
 

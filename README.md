@@ -12,3 +12,6 @@ The project uses:
     * Microsofts "C/C++" extension
 * Cygwin for C complier and bash
 * LLVM for clang-format and clang-tidy
+
+## Travis CI
+* Just for fun - added travis.yml

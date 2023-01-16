@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "simple_calc.h"
 
 int add (int a, int b) {

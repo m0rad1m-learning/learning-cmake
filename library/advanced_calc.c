@@ -1,6 +1,4 @@
 #include "advanced_calc.h"
-#include <stdio.h>
-
 
 /// @brief Calculates the multiple of two floats
 /// @param a is the first factor
